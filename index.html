@@ -40,24 +40,53 @@
     height: 20px;
     
 }
+
+.nav{
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+    font-size: 20px;
+}
+.nav ul{
+    background: #7f8c8d;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li:hover{
+    background: #16a085;
+    
+}
+.nav ul li:hover a{
+    color: snow;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #bdc3c7;
+    text-decoration: none;
+}
 	    </style>
     </head>
 <body>
-<div class="header">
-    <h1>
-Header Web GW</h1>
-<h3>
-	belajar bikin web sederhana</h3>
-<label for="cari"><button>Cari</button></label>
-    <input type="search" name="cari">
-</div>
-<nav>
+    <div class="header">
+        <h1>Header Web GW</h1>
+        <h3>belajar bikin web sederhana</h3>
+        <label for="cari"><button>Cari</button></label>
+        <input type="search" name="cari">
+    </div>
+    <div class="nav">
         <ul>
-<li><a href="#">Beranda</a></li>
-<li><a href="#">Info</a></li>
-<li><a href="#">Chat Me</a></li>
-<li><a href="#">Sharing</a></li>
-</ul>
-</nav>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Chat Room</a></li>
+        </ul>
+    </div>
 </body>
 </html>
